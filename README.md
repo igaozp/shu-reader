@@ -1,10 +1,10 @@
-# Readonly.Link
+# ShuReader
 
-[ [Website](https://readonly.link)
-| [Manual](https://readonly.link/manuals/https://readonly.link/contents/manual/en.json)
-| [手册](https://readonly.link/manuals/https://readonly.link/contents/manual/zh.json) ]
+[ [Website](https://shureader.com)
+| [Manual](https://shureader.com/manuals/https://shureader.com/contents/manual/en.json)
+| [手册](https://shureader.com/manuals/https://shureader.com/contents/manual/zh.json) ]
 
-Readonly links, for your read only.
+Read documents like books.
 
 ## Development
 

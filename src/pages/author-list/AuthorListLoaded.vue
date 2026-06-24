@@ -21,8 +21,8 @@ onMounted(async () => {
 <template>
   <div>
     <Head>
-      <title v-if="lang.isZh()">作者 | 只读</title>
-      <title v-else>Authors | Readonly</title>
+      <title v-if="lang.isZh()">作者 | ShuReader</title>
+      <title v-else>Authors | ShuReader</title>
     </Head>
 
     <div class="flex items-baseline">

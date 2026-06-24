@@ -12,8 +12,8 @@ const lang = useGlobalLang()
     class="h-screen-dynamic overflow-auto bg-white text-black dark:bg-black dark:text-white"
   >
     <Head>
-      <title v-if="lang.isZh()">只读</title>
-      <title v-else>Readonly</title>
+      <title v-if="lang.isZh()">ShuReader</title>
+      <title v-else>ShuReader</title>
     </Head>
 
     <div

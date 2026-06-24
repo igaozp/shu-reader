@@ -1,1 +1,1 @@
-git pull && pnpm i && pnpm build && sudo rm -rf /websites/readonlylink && sudo cp -r dist /websites/readonlylink
+git pull && pnpm i && pnpm build && sudo rm -rf /websites/shureader && sudo cp -r dist /websites/shureader

@@ -21,7 +21,7 @@ Run a single test file: `pnpm exec vitest --dir src --run src/utils/slug.test.ts
 
 ## What this app is
 
-Readonly.Link is a Vue 3 SPA that renders remote Markdown/JSON as articles, books,
+ShuReader is a Vue 3 SPA that renders remote Markdown/JSON as articles, books,
 manuals, and author pages. **There is no backend in this repo** — content is fetched
 client-side over `fetch()` from arbitrary URLs embedded in the route path. A route
 like `/articles/https://example.com/post.md` fetches that URL and renders it. The

@@ -39,7 +39,7 @@ async function submit(event: Event) {
           <template #label>
             <div
               class="flex items-end justify-between"
-              title="Manual | Readonly.Link Manual"
+              title="Manual | ShuReader Manual"
             >
               <Lang class="text-2xl font-bold">
                 <template #zh> 手册 </template>
