@@ -4,17 +4,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
+This project uses **pnpm** as its package manager (pinned via the
+`packageManager` field in `package.json`).
+
 ```sh
-npm install         # Install dependencies
-npm run dev         # Start the Vite dev server (binds 0.0.0.0)
-npm run build       # Production build (sourcemaps on)
-npm run check       # Type check with vue-tsc (.vue + .ts) — the canonical check
-npm run test        # Run Vitest once over src
-npm run format      # Prettier write over src
+pnpm install        # Install dependencies
+pnpm dev            # Start the Vite dev server (binds 0.0.0.0)
+pnpm build          # Production build (sourcemaps on)
+pnpm check          # Type check with vue-tsc (.vue + .ts) — the canonical check
+pnpm test           # Run Vitest once over src
+pnpm format         # Prettier write over src
 ```
 
-Run a single test file: `npx vitest --dir src --run src/utils/slug.test.ts`
-(or `npx vitest run path/to/file.test.ts`). Tests are colocated as `*.test.ts`.
+Run a single test file: `pnpm exec vitest --dir src --run src/utils/slug.test.ts`
+(or `pnpm exec vitest run path/to/file.test.ts`). Tests are colocated as `*.test.ts`.
 
 ## What this app is
 
@@ -70,7 +73,7 @@ deep `watch` that writes changes back to IDB (see `models/history/useHistory.ts`
 - Vue 3 `<script setup lang="ts">` + Composition API throughout; Tailwind for styling
   (`darkMode: 'selector'`); strict TypeScript.
 - Prettier with `prettier-plugin-organize-imports` and `prettier-plugin-tailwindcss`
-  (imports and class lists are auto-sorted — run `npm run format`).
+  (imports and class lists are auto-sorted — run `pnpm format`).
 - Observe and match existing code style; per `STYLE-GUIDE.md`, respect surrounding
   conventions over introducing new patterns.
 - Contributors add themselves to `AUTHORS`; license is GPLv3.

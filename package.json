@@ -1,5 +1,6 @@
 {
   "private": true,
+  "packageManager": "pnpm@10.27.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,7 +9,7 @@
     "check:ts": "tsc --noEmit",
     "check:ts:watch": "tsc --noEmit --watch",
     "test:ts": "vitest --dir src --run",
-    "test": "npm run test:ts",
+    "test": "pnpm run test:ts",
     "format": "prettier src --write"
   },
   "dependencies": {
@@ -55,5 +56,10 @@
     "vite-bundle-visualizer": "^1.2.1",
     "vitest": "^4.1.9",
     "vue-tsc": "^3.3.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "vue-demi"
+    ]
   }
 }

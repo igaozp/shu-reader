@@ -9,10 +9,10 @@ Readonly links, for your read only.
 ## Development
 
 ```sh
-npm install     # Install dependencies
-npm run dev     # Start the dev server
-npm run check   # Type check
-npm run format  # Format the code
+pnpm install    # Install dependencies
+pnpm dev        # Start the dev server
+pnpm check      # Type check
+pnpm format     # Format the code
 ```
 
 ## Contributions
