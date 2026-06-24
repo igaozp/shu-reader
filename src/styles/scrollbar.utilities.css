@@ -1,0 +1,67 @@
+@utility scrollbar-hide {
+  /*
+
+References:
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar
+- https://css-tricks.com/custom-scrollbars-in-webkit/
+
+*/
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@utility scrollbar-h-0 {
+  &::-webkit-scrollbar {
+    height: 0px;
+  }
+}
+
+@utility scrollbar-h-2 {
+  &::-webkit-scrollbar {
+    height: 2px;
+  }
+}
+
+@utility scrollbar-h-4 {
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+}
+
+@utility scrollbar-h-8 {
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+}
+
+@utility scrollbar-w-0 {
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+@utility scrollbar-w-2 {
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+}
+
+@utility scrollbar-w-4 {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+}
+
+@utility scrollbar-w-8 {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+}

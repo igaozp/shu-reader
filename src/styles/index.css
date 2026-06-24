@@ -1,9 +1,11 @@
 @import './tailwind.css';
 @import './svg.css' layer(base);
 @import './selection.css' layer(base);
-@import './height.css' layer(utilities);
+@import './height.css';
 @import './scrollbar.css' layer(utilities);
+@import './scrollbar.utilities.css';
 @import './splitpanes.css';
+@import './splitpanes.utilities.css';
 
 @import 'katex/dist/katex.css';
 
