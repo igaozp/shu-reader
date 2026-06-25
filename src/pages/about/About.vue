@@ -11,8 +11,8 @@ const lang = useGlobalLang()
 <template>
   <PageLayout>
     <Head>
-      <title v-if="lang.isZh()">关于 | 只读</title>
-      <title v-else>About | Readonly</title>
+      <title v-if="lang.isZh()">关于 | ShuReader</title>
+      <title v-else>About | ShuReader</title>
     </Head>
 
     <div class="flex items-baseline space-x-4">
@@ -29,12 +29,12 @@ const lang = useGlobalLang()
         class="inline-flex flex-wrap items-baseline bg-white text-black dark:bg-black dark:text-white"
       >
         <template #zh>
-          <div class="pr-1 font-bold">只读链接</div>
+          <div class="pr-1 font-bold">ShuReader</div>
           <div>是一个文档渲染工具，</div>
           <div>文字创作者的社区。</div>
         </template>
         <template #en>
-          <div class="pr-1 font-bold">Readonly.Link</div>
+          <div class="pr-1 font-bold">ShuReader</div>
           <div class="pr-1">is a document rendering tool,</div>
           <div>and a community for authors.</div>
         </template>
@@ -108,7 +108,7 @@ const lang = useGlobalLang()
       <Lang>
         <template #zh>
           <a
-            href="https://github.com/readonlylink/readonlylink"
+            href="https://github.com/igaozp/readonlylink"
             class="inline-flex items-center underline"
             target="_blank"
             >源代码<ArrowTopRightOnSquareIcon
@@ -117,7 +117,7 @@ const lang = useGlobalLang()
         </template>
         <template #en>
           <a
-            href="https://github.com/readonlylink/readonlylink"
+            href="https://github.com/igaozp/readonlylink"
             class="inline-flex items-center underline"
             target="_blank"
           >
@@ -145,19 +145,16 @@ const lang = useGlobalLang()
       <Lang class="font-bold text-stone-500 dark:text-stone-400">
         <template #zh>
           <div>
-            分享<span class="text-black dark:text-white">只读</span>链接，<br
-              class="sm:hidden"
-            /><span class="text-black dark:text-white">只</span>为享受阅<span
-              class="text-black"
-              >读</span
+            把文档，<br class="sm:hidden" />读成<span
+              class="text-black dark:text-white"
+              >书</span
             >。
           </div>
         </template>
         <template #en>
           <div>
-            <span class="text-black dark:text-white">Readonly</span> links,
-            <br class="sm:hidden" />
-            for your <span class="text-black dark:text-white">read only</span>.
+            Read documents <br class="sm:hidden" />like
+            <span class="text-black dark:text-white">books</span>.
           </div>
         </template>
       </Lang>

@@ -8,8 +8,8 @@ defineProps<{ options: StateOptions }>()
 <template>
   <div class="text-xl text-stone-500 dark:text-stone-400">
     <Lang>
-      <template #zh> 只读链接加载中⋯⋯ </template>
-      <template #en> Loading readonlylink ... </template>
+      <template #zh> 加载中⋯⋯ </template>
+      <template #en> Loading ... </template>
     </Lang>
   </div>
 </template>

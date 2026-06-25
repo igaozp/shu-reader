@@ -121,8 +121,8 @@ function unfollow() {
         class="flex items-center hover:text-black dark:hover:text-white"
       >
         <Lang>
-          <template #zh> 只读链接 </template>
-          <template #en> Readonly.Link </template>
+          <template #zh> ShuReader </template>
+          <template #en> ShuReader </template>
         </Lang>
 
         <ArrowTopRightOnSquareIcon class="ml-0.5 h-4 w-4" />

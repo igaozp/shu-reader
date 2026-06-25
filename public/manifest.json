@@ -1,6 +1,6 @@
 {
-  "name": "Readonly.Link",
-  "short_name": "-r--",
+  "name": "ShuReader",
+  "short_name": "ShuReader",
   "description": "A document rendering tool, and a community for authors.",
   "display": "standalone",
   "start_url": "/",

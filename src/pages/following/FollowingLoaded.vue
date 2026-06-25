@@ -26,8 +26,8 @@ watchEffect(() => {
 <template>
   <PageLayout>
     <Head>
-      <title v-if="lang.isZh()">关注 | 只读</title>
-      <title v-else>Following | Readonly</title>
+      <title v-if="lang.isZh()">关注 | ShuReader</title>
+      <title v-else>Following | ShuReader</title>
     </Head>
 
     <FollowingEditor v-if="state.kind === 'Editor'" :state />
